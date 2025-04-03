@@ -1,0 +1,57 @@
+.body{
+    background-color: #fefedf;
+  
+}
+#msg{
+    display: flex;
+    justify-content: center;
+    color: rgb(200, 49, 3);
+}
+#product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
+.item-card{
+    cursor: pointer;
+}
+
+.pop-card {
+    width: 50%; 
+    max-width: 500px; 
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px !important;
+    box-shadow: 0 0 230px rgba(17, 15, 15, 0.1) !important;
+    background-color: #ffc75f;
+    cursor: pointer;
+}
+
+.pop-card img {
+    width: 100%;
+    margin-left: 0.5px;
+    /* auto here? */
+    height: 300px;   
+    border-radius: 30px;
+    box-shadow: 0 0 20px #ad5e00 ;
+}
+
+
+.pop-card h5 {
+    margin: 15px 0;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    color:#ffc75f !important;
+}
+.card{
+    background-color:  #ad5e00 !important;
+}
+#button{
+    background-color: #ad5e00;
+}
